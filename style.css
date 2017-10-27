@@ -1,0 +1,32 @@
+body{
+  background-color:#c27bf2 ;
+  display:flex;
+  justify-content:space-around;
+}
+
+.background{
+  background-color:rgba(255,255,255,0.5);
+  height:100vh;
+  width: 45vw;
+  text-align: center;
+  font-family:cursive;
+}
+
+#intro{
+  display:flex;
+  flex-direction:column;
+  margin:20px;
+}
+
+#button{
+  margin-top:20px;
+}
+
+#checkboxes label {
+ float: left;
+}
+#checkboxes ul {
+ margin: 0;
+ list-style: none;
+ float: left;
+}
