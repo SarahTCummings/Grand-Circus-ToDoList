@@ -2,6 +2,8 @@ var taskList = document.getElementById("taskList");
 var addTask = document.getElementById("button");
 var task = document.getElementById("task");
 
+var ellen = document.getElementById("ellen");
+
 var tasks = [];
 addTask.onclick = function(){
   var newTask = document.createElement("input");
@@ -11,10 +13,5 @@ addTask.onclick = function(){
   tasks += newTask;
   taskList.appendChild(newTask);
   taskList.appendChild(taskWords);
-}
-tasks.forEach(function(task){
-task.onclick = function(){
-
-}
-})
+  ellen.style.display("block");
 }
